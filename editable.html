@@ -167,12 +167,12 @@
             
             
 
-        <div data-silex-type="text-element" class="editable-style silex-id-1552772425150-3 text-element silex-component prevent-resizable hamburger-menu prevent-auto-z-index hide-on-desktop" data-silex-id="silex-id-1552772425150-3"><div class="silex-element-content normal"><style>.hamburger-menu_1670211056892_154 {position: absolute; z-index: 20;}.silex-editor .hamburger-menu_1670211056892_154 nav {left: -9999px;}.hamburger-menu_1670211056892_154 nav ul {margin-top: 80px;}.hamburger-menu_1670211056892_154 nav {opacity: 0; position: absolute; background-color: #B4E5E8; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1670211056892_154.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1670211056892_154 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1670211056892_154.open .nav-container {}.hamburger-menu_1670211056892_154 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1670211056892_154 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
+        <div data-silex-type="text-element" class="editable-style silex-id-1552772425150-3 text-element silex-component prevent-resizable hamburger-menu prevent-auto-z-index hide-on-desktop" data-silex-id="silex-id-1552772425150-3"><div class="silex-element-content normal"><style>.hamburger-menu_1670212888060_437 {position: absolute; z-index: 20;}.silex-editor .hamburger-menu_1670212888060_437 nav {left: -9999px;}.hamburger-menu_1670212888060_437 nav ul {margin-top: 80px;}.hamburger-menu_1670212888060_437 nav {opacity: 0; position: absolute; background-color: #B4E5E8; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1670212888060_437.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1670212888060_437 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1670212888060_437.open .nav-container {}.hamburger-menu_1670212888060_437 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1670212888060_437 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
       opacity 0.1s ease-in,
       transform 0.1s ease-in,
-      background 0.1s ease-in;}.hamburger-menu_1670211056892_154.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1670211056892_154 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1670211056892_154.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1670211056892_154.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1670211056892_154 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1670211056892_154.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
+      background 0.1s ease-in;}.hamburger-menu_1670212888060_437.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1670212888060_437 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1670212888060_437.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1670212888060_437.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1670212888060_437 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1670212888060_437.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1670211056892_154 closed">
+<div class="hamburger-menu_1670212888060_437 closed">
     <div class="hamburger-btn ">
       <span></span>
       <span></span>
@@ -183,7 +183,7 @@
         <nav class="">
             <ul>
             
-                <li><a href="#!page-home" class="page-link-active">Home</a></li>
+                <li><a href="#!page-home">Home</a></li>
             
                 <li><a href="#!page-contact">Contact</a></li>
             
@@ -199,13 +199,13 @@
   var isOpen = false;
   function close() {
     isOpen = false;
-    document.querySelector('.hamburger-menu_1670211056892_154').classList.remove('open');
-    document.querySelector('.hamburger-menu_1670211056892_154').classList.add('closed');
+    document.querySelector('.hamburger-menu_1670212888060_437').classList.remove('open');
+    document.querySelector('.hamburger-menu_1670212888060_437').classList.add('closed');
   }
   function open() {
     isOpen = true;
-    document.querySelector('.hamburger-menu_1670211056892_154').classList.add('open');
-    document.querySelector('.hamburger-menu_1670211056892_154').classList.remove('closed');
+    document.querySelector('.hamburger-menu_1670212888060_437').classList.add('open');
+    document.querySelector('.hamburger-menu_1670212888060_437').classList.remove('closed');
   }
   function toggle() {
     if(isOpen) close();
@@ -215,7 +215,7 @@
     close();
     move();
   }
-  var silexElement = document.querySelector('.hamburger-menu_1670211056892_154').closest('.editable-style');
+  var silexElement = document.querySelector('.hamburger-menu_1670212888060_437').closest('.editable-style');
   function move() {
     var data = window.silex
     var rect = silexElement.getBoundingClientRect();
@@ -223,10 +223,10 @@
       top: rect.top + data.scrollTop,
       left: rect.left + data.scrollLeft,
     };
-    var container = document.querySelector('.hamburger-menu_1670211056892_154 .nav-container');
+    var container = document.querySelector('.hamburger-menu_1670212888060_437 .nav-container');
     container.style.transform = 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)';
   }
-  document.querySelector('.hamburger-menu_1670211056892_154 .hamburger-btn').addEventListener('click', function() { toggle(); });
+  document.querySelector('.hamburger-menu_1670212888060_437 .hamburger-btn').addEventListener('click', function() { toggle(); });
   document.addEventListener('resize', scrollOrResize);
   document.addEventListener('scroll', scrollOrResize);
   scrollOrResize()
@@ -248,21 +248,21 @@
                 <div class="silex-element-content normal"><b>﻿</b><b></b>&nbsp;이명난청치료는&nbsp;<h2>Use this free creative commons template for your own purpose.&nbsp;</h2>
                     <p><a href="//www.silex.me">Edit with Silex, live web creation</a>.&nbsp;Use the designer friendly interface. For free, always,&nbsp;♡ open source.</p>
                 </div>
-            </div><div data-silex-type="html-element" class="editable-style html-element silex-id-1670211687191-3 silex-component-map silex-use-height-not-minheight silex-element-content-full-height" data-silex-id="silex-id-1670211687191-3"><div class="silex-element-content"><div id="mapdiv_1670211688120_322" class="map"></div>
-<style>#mapdiv_1670211688120_322 {width: 100%; height: 100%;}</style>
+            </div><div data-silex-type="html-element" class="editable-style html-element silex-id-1670211687191-3 silex-component-map silex-use-height-not-minheight silex-element-content-full-height" data-silex-id="silex-id-1670211687191-3"><div class="silex-element-content"><div id="mapdiv_1670212888291_689" class="map"></div>
+<style>#mapdiv_1670212888291_689 {width: 100%; height: 100%;}</style>
 <script>
 
 
-function init_1670211688120_322() {
+function init_1670212888291_689() {
     if(typeof(ol) === 'undefined') {
         // console.warn('Map not ready, restart later')
         // wait for dependencies to be loaded
-        setTimeout(init_1670211688120_322, 1000);
+        setTimeout(init_1670212888291_689, 1000);
         return;
     }
 
     // empty the div before adding the map again
-    $('#mapdiv_1670211688120_322').empty();
+    $('#mapdiv_1670212888291_689').empty();
 
     // apply position and zoom
     // from map URL http://www.openstreetmap.org/#map=18/48.88680/2.34235&layers=C
@@ -280,7 +280,7 @@ function init_1670211688120_322() {
               source: new ol.source.OSM()
             })
           ],
-          target: 'mapdiv_1670211688120_322',
+          target: 'mapdiv_1670212888291_689',
           view: new ol.View({
             center: center,
             zoom: zoom
@@ -289,15 +289,15 @@ function init_1670211688120_322() {
         
     }
 }
-init_1670211688120_322();
+init_1670212888291_689();
 // $(document).on('silex.resize', function() {
-//     $('#mapdiv_1670211688120_322').empty();
-//     init_1670211688120_322();
+//     $('#mapdiv_1670212888291_689').empty();
+//     init_1670212888291_689();
 // });
 
 </script>
 </div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1670211702467-4 silex-component-share" data-silex-id="silex-id-1670211702467-4"><div class="silex-element-content">
-<ul class="share-buttons" id="id_1670211702774_340">
+<ul class="share-buttons" id="id_1670212888293_18">
   
   <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com&amp;t=Your%20site%20title" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" data-silex-static="" src="/static/2.7/simplesharingbuttons/flat_web_icon_set/color/Facebook.png"></a></li>
   
@@ -333,7 +333,7 @@ init_1670211688120_322();
   
 </ul>
 
-<style>#id_1670211702774_340.share-buttons {list-style: none; padding: 0;}#id_1670211702774_340.share-buttons li {display: inline;}#id_1670211702774_340.share-buttons .sr-only {position: absolute; clip: rect(1px, 1px, 1px, 1px); padding: 0; border: 0; height: 1px; width: 1px; overflow: hidden;}</style>
+<style>#id_1670212888293_18.share-buttons {list-style: none; padding: 0;}#id_1670212888293_18.share-buttons li {display: inline;}#id_1670212888293_18.share-buttons .sr-only {position: absolute; clip: rect(1px, 1px, 1px, 1px); padding: 0; border: 0; height: 1px; width: 1px; overflow: hidden;}</style>
 </div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1670211706642-5 silex-component-skill-bars" data-silex-id="silex-id-1670211706642-5"><div class="silex-element-content">
 <style>.skillbar {position: relative; display: block; margin-bottom: 15px; width: 100%; background: #eee; height: 35px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -webkit-transition: 0.4s linear; -moz-transition: 0.4s linear; -ms-transition: 0.4s linear; -o-transition: 0.4s linear; transition: 0.4s linear; -webkit-transition-property: width, background-color; -moz-transition-property: width, background-color; -ms-transition-property: width, background-color; -o-transition-property: width, background-color; transition-property: width, background-color;}.skillbar-title {position: relative; float: left; width: 25%; font-weight: bold; font-size: 13px; color: #ffffff; background: #6adcfa; -webkit-border-top-left-radius: 3px; -webkit-border-bottom-left-radius: 4px; -moz-border-radius-topleft: 3px; -moz-border-radius-bottomleft: 3px; border-top-left-radius: 3px; border-bottom-left-radius: 3px;}.skillbar-title span {display: block; text-align: center; background: rgba(0, 0, 0, 0.1); height: 35px; line-height: 35px; -webkit-border-top-left-radius: 3px; -webkit-border-bottom-left-radius: 3px; -moz-border-radius-topleft: 3px; -moz-border-radius-bottomleft: 3px; border-top-left-radius: 3px; border-bottom-left-radius: 3px;}.skillbar-bar {float: left; height: 35px; width: 0px; border-radius: 0 3px 3px 0; -moz-border-radius: 0 3px 3px 0; -webkit-border-radius: 0 3px 3px 0;}.skill-bar-percent {position: absolute; right: 10px; top: 0; font-size: 11px; height: 35px; line-height: 35px; color: rgba(0, 0, 0, 0.4);}</style>
 <script type="text/javascript">
@@ -392,7 +392,7 @@ init_1670211688120_322();
                 </div>
             </div>
             
-    <div data-silex-type="html-element" class="editable-style silex-id-1538155859204-2 html-element silex-component silex-component-form silex-use-height-not-minheight" data-silex-id="silex-id-1538155859204-2"><div class="silex-element-content"><form id="id_1670211056895_559" action="https://formspree.io/your@email.com" method="POST">
+    <div data-silex-type="html-element" class="editable-style silex-id-1538155859204-2 html-element silex-component silex-component-form silex-use-height-not-minheight" data-silex-id="silex-id-1538155859204-2"><div class="silex-element-content"><form id="id_1670212888064_269" action="https://formspree.io/your@email.com" method="POST">
   
   <div>
     <label for="field1">Name</label>
@@ -413,7 +413,7 @@ init_1670211688120_322();
   
   <input type="submit" value="Send">
 </form>
-<style>#id_1670211056895_559 input[type=text], select {width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; border-radius: 3px; box-sizing: border-box;}#id_1670211056895_559 input[type=submit] {width: 100%; background-color: #B4E5E8; color: #FFFFFF; padding: 14px 20px; margin: 8px 0; border: 1px solid #B4E5E8; border-radius: 3px; cursor: pointer;}#id_1670211056895_559 label {color: #000000;}#id_1670211056895_559 .fill-vertical {flex: 1 1 auto; display: flex; flex-direction: column;}#id_1670211056895_559 .fill-vertical textarea {flex: 1 1 auto; width: 100%; height: 150px; padding: 12px 20px; box-sizing: border-box; border: 2px solid #ccc; border-radius: 3px; background-color: #f8f8f8; font-size: 16px; resize: none;}#id_1670211056895_559 {border-radius: 3px; display: flex; flex-direction: column; justify-content: space-between; height: 100%;}</style>
+<style>#id_1670212888064_269 input[type=text], select {width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; border-radius: 3px; box-sizing: border-box;}#id_1670212888064_269 input[type=submit] {width: 100%; background-color: #B4E5E8; color: #FFFFFF; padding: 14px 20px; margin: 8px 0; border: 1px solid #B4E5E8; border-radius: 3px; cursor: pointer;}#id_1670212888064_269 label {color: #000000;}#id_1670212888064_269 .fill-vertical {flex: 1 1 auto; display: flex; flex-direction: column;}#id_1670212888064_269 .fill-vertical textarea {flex: 1 1 auto; width: 100%; height: 150px; padding: 12px 20px; box-sizing: border-box; border: 2px solid #ccc; border-radius: 3px; background-color: #f8f8f8; font-size: 16px; resize: none;}#id_1670212888064_269 {border-radius: 3px; display: flex; flex-direction: column; justify-content: space-between; height: 100%;}</style>
 
 </div></div></div>
     </section><footer data-silex-type="container-element" class="container-element editable-style section-element silex-id-1483130400381-10 website-min-width prevent-resizable" data-silex-id="silex-id-1483130400381-10">
