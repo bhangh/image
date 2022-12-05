@@ -62,11 +62,104 @@
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" class="silex-custom-font"><meta name="viewport" content="width=device-width, initial-scale=1"><script class="silex-script"></script><script src="js/script.js"></script><link href="css/styles.css" rel="stylesheet"><style>body { opacity: 0; transition: .25s opacity ease; }</style></head>
 
 <body class="body-initial all-style enable-mobile prevent-resizable prevent-selectable editable-style silex-runtime silex-published" data-current-page="page-contact">
-    <div class="container-element editable-style silex-id-1483130857943-13 section-element small-height website-min-width hide-on-mobile prevent-resizable">
-        <div class="editable-style silex-element-content website-width silex-id-1483130857943-12 container-element"></div>
-    </div>
     
-    <header class="container-element editable-style silex-id-1483130355289-7 section-element website-min-width prevent-resizable" style="top: 0px; left: 0px;">
+    
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-element editable-style silex-id-1483130857943-13 section-element small-height website-min-width hide-on-mobile prevent-resizable">
+        <div class="editable-style silex-element-content website-width silex-id-1483130857943-12 container-element"></div>
+    </div><header class="container-element editable-style silex-id-1483130355289-7 section-element website-min-width prevent-resizable">
         
     <div class="editable-style silex-element-content website-width silex-id-1483130355289-6 container-element">
             
@@ -74,7 +167,7 @@
 
         <div class="editable-style silex-id-1552772425150-3 text-element silex-component prevent-resizable hamburger-menu prevent-auto-z-index hide-on-desktop"><div class="silex-element-content normal">
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1669954587565_865 closed">
+<div class="hamburger-menu_1670211056892_154 closed">
     <div class="hamburger-btn ">
       <span></span>
       <span></span>
@@ -85,7 +178,7 @@
         <nav class="">
             <ul>
             
-                <li><a href="index.html" class="">Home</a></li>
+                <li><a href="index.html">Home</a></li>
             
                 <li><a href="contact.html" class="page-link-active">Contact</a></li>
             
@@ -101,13 +194,13 @@
   var isOpen = false;
   function close() {
     isOpen = false;
-    document.querySelector('.hamburger-menu_1669954587565_865').classList.remove('open');
-    document.querySelector('.hamburger-menu_1669954587565_865').classList.add('closed');
+    document.querySelector('.hamburger-menu_1670211056892_154').classList.remove('open');
+    document.querySelector('.hamburger-menu_1670211056892_154').classList.add('closed');
   }
   function open() {
     isOpen = true;
-    document.querySelector('.hamburger-menu_1669954587565_865').classList.add('open');
-    document.querySelector('.hamburger-menu_1669954587565_865').classList.remove('closed');
+    document.querySelector('.hamburger-menu_1670211056892_154').classList.add('open');
+    document.querySelector('.hamburger-menu_1670211056892_154').classList.remove('closed');
   }
   function toggle() {
     if(isOpen) close();
@@ -117,7 +210,7 @@
     close();
     move();
   }
-  var silexElement = document.querySelector('.hamburger-menu_1669954587565_865').closest('.editable-style');
+  var silexElement = document.querySelector('.hamburger-menu_1670211056892_154').closest('.editable-style');
   function move() {
     var data = window.silex
     var rect = silexElement.getBoundingClientRect();
@@ -125,10 +218,10 @@
       top: rect.top + data.scrollTop,
       left: rect.left + data.scrollLeft,
     };
-    var container = document.querySelector('.hamburger-menu_1669954587565_865 .nav-container');
+    var container = document.querySelector('.hamburger-menu_1670211056892_154 .nav-container');
     container.style.transform = 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)';
   }
-  document.querySelector('.hamburger-menu_1669954587565_865 .hamburger-btn').addEventListener('click', function() { toggle(); });
+  document.querySelector('.hamburger-menu_1670211056892_154 .hamburger-btn').addEventListener('click', function() { toggle(); });
   document.addEventListener('resize', scrollOrResize);
   document.addEventListener('scroll', scrollOrResize);
   scrollOrResize()
@@ -143,68 +236,7 @@
                     <div class="silex-element-content normal">
                         <p><a href="contact.html" class="page-link-active">CONTACT</a>
                     </p></div>
-                </div></div></header>
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-
-    
-
-
-
-    <section class="container-element editable-style section-element silex-id-1483131410736-25 website-min-width prevent-resizable page-contact paged-element paged-element-visible">
+                </div><div class="editable-style image-element silex-id-1669954922166-2"><img src="assets/%EC%83%81%ED%98%B8%EC%9D%B4%EB%AF%B8%EC%A7%80.jpg"></div></div></header><section class="container-element editable-style section-element silex-id-1483131410736-25 website-min-width prevent-resizable page-contact paged-element paged-element-visible">
 
         <div class="editable-style silex-element-content website-width container-element silex-id-1483131410737-26">
 
@@ -221,7 +253,7 @@
                 </div>
             </div>
             
-    <div class="editable-style silex-id-1538155859204-2 html-element silex-component silex-component-form silex-use-height-not-minheight"><div class="silex-element-content"><form id="id_1669954587598_630" action="https://formspree.io/your@email.com" method="POST">
+    <div class="editable-style silex-id-1538155859204-2 html-element silex-component silex-component-form silex-use-height-not-minheight"><div class="silex-element-content"><form id="id_1670211056895_559" action="https://formspree.io/your@email.com" method="POST">
   
   <div>
     <label for="field1">Name</label>
@@ -245,43 +277,27 @@
 
 
 </div></div></div>
-    </section>
-    <footer class="container-element editable-style section-element silex-id-1483130400381-10 website-min-width prevent-resizable">
+    </section><footer class="container-element editable-style section-element silex-id-1483130400381-10 website-min-width prevent-resizable">
         <div class="editable-style silex-element-content website-width container-element silex-id-1483130400382-11">
-            <div class="editable-style text-element silex-id-1436036522220-7 full-width small-text style-centered">
-                <div class="silex-element-content normal">
-                    <p>This is a creative commons template <br>for use in <a href="https://www.silex.me/">Silex website editor</a><br></p></div>
-            </div>
-        </div>
-    </footer>
+            
+        <div class="editable-style text-element silex-id-1436036522220-7 full-width small-text style-centered">
+                <div class="silex-element-content normal"> <b>
 
+<p><u></u></p></b>
 
+<p><b>﻿</b>인천시 남동구 구월로119(간석동)&nbsp;&nbsp;</p><p>진영프라자 502호(인천시청역3번출구앞)</p><p>​대표자 방혜정 사업자번호 859-95-01431&nbsp;</p><p>
 
+TEL. 032-423-1010<br>FAX. 050-8054-7575
 
+</p>
 
+<b><p><u></u></p>
 
+</b>
+                    <p><b></b>
 
+</p><p>&nbsp; &nbsp; &nbsp;COPYRIGHT(C) 2015MYUNGSUNG ORIENTAL HOSPITAL. ALL RIGHTS RESERVED</p><p>​​​</p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body></html>
+ <a href="https://www.silex.me/">Silex website editor</a><br><p></p></div>
+            </div></div>
+    </footer></body></html>
